@@ -1,0 +1,16 @@
+<script>
+    let n=parseInt(prompt("점수입력하세요"));
+    let msg="";
+    if(n<=100 && n>=90){
+        msg="A학점";
+    }else if(n<90 && n>=80){
+        msg="B학점";
+    }else if(n<80 && n>=70){
+        msg="C학점";
+    }else if(n<70 && n>=60){
+        msg="D학점";
+    }else if(n<60){
+        msg="F학점";
+    }
+    document.write(msg);
+</script>
